@@ -39,6 +39,7 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",   # React dev server
+    "https://chatapp-frontend.vercel.app",
 ]
 CORS_ALLOW_HEADERS = [
     "content-type",
