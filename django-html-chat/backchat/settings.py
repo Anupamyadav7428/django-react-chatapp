@@ -6,7 +6,7 @@ SECRET_KEY = "django-insecure-q8$1^k7t36@2_o#ddypqs2xn(0vsn07y6g@ynj_gq9zzo$_)2)
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["chatapp-yf1s.onrender.com", "127.0.0.1", "localhost"]
 
 INSTALLED_APPS = [
     "daphne",
